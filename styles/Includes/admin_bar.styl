@@ -1,0 +1,42 @@
+///////// ADMIN BAR
+html,html[lang],html[lang='en'],html[lang='en-US'],body
+  margin-top 0!important
+.admin-bar
+  #wpadminbar
+    top initial
+    left 0
+    bottom 0
+    right 0
+    display inline-block
+    position fixed
+    opacity 0.7
+    border none
+    transition opacity 0.2s
+    background transparent
+    text-align center
+    width 100%
+    pointer-events none
+    &:hover
+      opacity 1
+    .quicklinks
+      pointer-events all
+      border-radius 10px 10px 0 0
+      display inline-block
+      background rgba(0,0,0,0.5)
+
+    li
+      a
+        font-weight 100
+      &:last-child
+        a
+          border-radius 0 10px 0 0
+      &:first-child,&:nth-child(2)
+        a
+          border-radius 10px 0 0 0
+    #wp-admin-bar-wp-logo
+      display none
+    #wp-admin-bar-wp-site-name
+      display none
+      a
+        font-weight bold
+///////// END ADMIN BAR

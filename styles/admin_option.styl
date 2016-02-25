@@ -1,0 +1,51 @@
+/* To be included in Admin option page */
+@import "Includes/common.styl"
+/* Hiding parent themes, discouraging the modification of parent themes and force using child theme instead */
+.theme
+  &[aria-describedby^='flatsome-action'],&[aria-describedby^='oxygen-action']
+    display none
+#adminmenu
+  #toplevel_page_NBWGlucose
+    .dashicons-before
+      &:before
+        content 'NBW'
+        font-size 14px
+        font-family monospace
+        margin-top 3px
+        margin-left -2px
+        font-weight bold
+    .wp-menu-name
+      font-weight 900
+label.control-label
+  padding-top 6px
+.k-animation-container, .k-widget, .k-animation-container, .k-block .k-header, .k-list-container
+  .container-fluid
+    *, *:before, *:after
+      vendor("box-sizing", border-box)
+.form-control.k-textbox
+  height 32px
+.k-widget.k-datetimepicker.k-header.form-control
+  padding 0
+  .k-input,.k-select
+    height 32px
+  .k-select
+    line-height 32px
+.k-widget.k-dropdown.k-header.form-control
+  height 34px
+  padding 0
+  margin 0
+  .k-dropdown-wrap
+    height 34px
+    vendor("border-radius", 0 0 0 0)
+    .k-input
+      line-height 28px
+  #toplevel_page_NBWGlucose
+    font-weight bold
+    a.menu-top
+      font-weight bold
+.k-widget
+  [class*='col-xs'],[class*='col-sm'],[class*='col-md'],[class*='col-lg']
+    box-sizing border-box
+#wpbody
+ .fade
+   opacity 1

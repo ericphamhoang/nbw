@@ -1,0 +1,133 @@
+/* To be included in Admin option page */
+.t-left {
+  text-align: left;
+}
+.t-right {
+  text-align: right;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.f-width {
+  width: 100%;
+}
+.f-height {
+  height: 100%;
+}
+.strong {
+  font-weight: bold;
+}
+.light {
+  font-weight: 100;
+}
+.innerL {
+  padding-left: 15px;
+}
+.innerR {
+  padding-right: 15px;
+}
+.innerLR {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.small {
+  font-size: 0.75em;
+}
+/* Hiding parent themes, discouraging the modification of parent themes and force using child theme instead */
+.theme[aria-describedby^='flatsome-action'],
+.theme[aria-describedby^='oxygen-action'] {
+  display: none;
+}
+#adminmenu #toplevel_page_NBWGlucose .dashicons-before:before {
+  content: 'NBW';
+  font-size: 14px;
+  font-family: monospace;
+  margin-top: 3px;
+  margin-left: -2px;
+  font-weight: bold;
+}
+#adminmenu #toplevel_page_NBWGlucose .wp-menu-name {
+  font-weight: 900;
+}
+label.control-label {
+  padding-top: 6px;
+}
+.k-animation-container .container-fluid *,
+.k-widget .container-fluid *,
+.k-block .k-header .container-fluid *,
+.k-list-container .container-fluid *,
+.k-animation-container .container-fluid *:before,
+.k-widget .container-fluid *:before,
+.k-block .k-header .container-fluid *:before,
+.k-list-container .container-fluid *:before,
+.k-animation-container .container-fluid *:after,
+.k-widget .container-fluid *:after,
+.k-block .k-header .container-fluid *:after,
+.k-list-container .container-fluid *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ie-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ie-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-control.k-textbox {
+  height: 32px;
+}
+.k-widget.k-datetimepicker.k-header.form-control {
+  padding: 0;
+}
+.k-widget.k-datetimepicker.k-header.form-control .k-input,
+.k-widget.k-datetimepicker.k-header.form-control .k-select {
+  height: 32px;
+}
+.k-widget.k-datetimepicker.k-header.form-control .k-select {
+  line-height: 32px;
+}
+.k-widget.k-dropdown.k-header.form-control {
+  height: 34px;
+  padding: 0;
+  margin: 0;
+}
+.k-widget.k-dropdown.k-header.form-control .k-dropdown-wrap {
+  height: 34px;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  -ie-border-radius: 0 0 0 0;
+  -o-border-radius: 0 0 0 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  -ie-border-radius: 0 0 0 0;
+  -o-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+}
+.k-widget.k-dropdown.k-header.form-control .k-dropdown-wrap .k-input {
+  line-height: 28px;
+}
+.k-widget.k-dropdown.k-header.form-control #toplevel_page_NBWGlucose {
+  font-weight: bold;
+}
+.k-widget.k-dropdown.k-header.form-control #toplevel_page_NBWGlucose a.menu-top {
+  font-weight: bold;
+}
+.k-widget [class*='col-xs'],
+.k-widget [class*='col-sm'],
+.k-widget [class*='col-md'],
+.k-widget [class*='col-lg'] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ie-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#wpbody .fade {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}

@@ -1,0 +1,35 @@
+@import 'Includes/nib'
+
+inner_padding = 15px
+
+.t-left
+  text-align left
+.t-right
+  text-align right
+.f-left
+  float left
+.f-right
+  float right
+.f-width
+  width 100%
+.f-height
+  height 100%
+.strong
+  font-weight bold
+.light
+  font-weight 100
+.innerL
+  padding-left inner_padding
+.innerR
+  padding-right inner_padding
+.innerLR
+  padding-left inner_padding
+  padding-right inner_padding
+.small
+  font-size 0.75em
+vendor(name, args)
+  -webkit-{name} args
+  -moz-{name} args
+  -ie-{name} args
+  -o-{name} args
+  {name} args
